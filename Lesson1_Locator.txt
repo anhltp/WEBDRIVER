@@ -1,32 +1,24 @@
-﻿-----------------------Webdriver lesson 1--------------------------------
-Bài nộp trên google driver
-1. Vào Git hub
-2. Tạo account
-3. Tạo new repository: septeni_autobasic
-- Get clone project
-- Viết code trên thư mục vừa down
-- git add.-u
-- git commit _m '...'
-- git push -u origin master:master
-Note: chu y naming convention, commit convention
-vi du:
-Project: Smaport
-Branch 1: buoi 1
-Branch 2: buoi 2
-....
-Bài tập 1: Dùng Xpath chuyển sang CSS
-Bài tập 2: Tìm hiểu git hub và thử đẩy 1 file trên
-Bài tập 3: vào Guru tìm xpath các element rồi đẩy lên github (miễn là đẩy code lên repository)
+﻿1. Giá của sản phẩm
+Xpath=//tr[2]/td[3]//span[@class='price']
+Xpath=//tr[1]/td[3]/span/span
 
+2. Số lượng sản phẩm
+Xpath = //tr[1]/td[4]/input
 
-qty = //input[@name='cart[18391][qty]']
-Price2 = //tr[2]/td[3]//span[@class='price']
-Price1 = //tr[1]/td[3]/span/span
-Remove = //tr[1]/td[6]/a[text()='Remove Item']
-//select/option[.= 'Angola']
-//select/option[3]
-//select/option[position() = 3]
-Search=//input[@id='search'] --> css input[id=search]
-Cart = //a[contains(@href,'http://live.guru99.com/index.php/checkout/cart/')]
-//a[@href='http://live.guru99.com/index.php/checkout/cart/']
-Img = //img[@alt='Samsung Galaxy']
+3. Button Delete của sản phẩm bất kỳ
+Xpath=//tr[1]/td[6]/a
+
+4. Option Country
+Xpath=//select/option[.= 'Angola']
+Xpath=//select/option[3]
+Xpath=//select/option[position() = 3]
+
+5. Ô tìm kiếm
+Xpath=Search=//input[@id='search']
+CSS=input[id=search]
+
+6. Giỏ hàng
+Xpath=//a[@href='http://live.guru99.com/index.php/checkout/cart/']
+
+7. Ảnh sản phẩm
+Xpath=//img[@alt='Samsung Galaxy']
