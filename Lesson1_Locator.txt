@@ -22,3 +22,6 @@ Xpath=//a[@href='http://live.guru99.com/index.php/checkout/cart/']
 
 7. Ảnh sản phẩm
 Xpath=//img[@alt='Samsung Galaxy']
+ 
+8. Button Search
+//button[@type='submit' and span='Search']
