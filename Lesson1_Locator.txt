@@ -1,0 +1,27 @@
+﻿1. Giá của sản phẩm
+Xpath=//tr[2]/td[3]//span[@class='price']
+Xpath=//tr[1]/td[3]/span/span
+
+2. Số lượng sản phẩm
+Xpath = //tr[1]/td[4]/input
+
+3. Button Delete của sản phẩm bất kỳ
+Xpath=//tr[1]/td[6]/a
+
+4. Option Country
+Xpath=//select/option[.= 'Angola']
+Xpath=//select/option[3]
+Xpath=//select/option[position() = 3]
+
+5. Ô tìm kiếm
+Xpath=Search=//input[@id='search']
+CSS=input[id=search]
+
+6. Giỏ hàng
+Xpath=//a[@href='http://live.guru99.com/index.php/checkout/cart/']
+
+7. Ảnh sản phẩm
+Xpath=//img[@alt='Samsung Galaxy']
+ 
+8. Button Search
+//button[@type='submit' and span='Search']
